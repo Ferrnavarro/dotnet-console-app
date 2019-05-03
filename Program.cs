@@ -10,6 +10,7 @@ namespace AppPrueba
     {
         static void Main(string[] args)
         {
+            //Prueba
             var Tracks = LoadJson();
             var timeplayed = Tracks.Sum(s => s.msPlayed);
             var index =  Tracks.Where(w => w.artistName == null).First(); 
